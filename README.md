@@ -1,10 +1,11 @@
 # Skulling Financial Services
 
-Instructions: Design a retirement planning calculator for Skulling Financial Services. Allow a user to enter a number of working years remaining in the user's career and the annual amount of money the user can save. 
-Assume that the user earns three percent simple interest on savings annually. 
-Program output is a schedule that lists each year number in retirement starting with year 0 and the user's savings at the start of that year. Assume that the user spends $50,000 per year in retirement and then earns three percent interest on the remaining balance. End the list after 40 years, or when the user's balance is 0 or less, whichever comes first.
+Instructions: Design a retirement planning calculator for Skulling Financial Services. Allow a user to enter a number of working years remaining in the user's career and the annual amount of money the user can save.
+Program output is a schedule that lists each year number in retirement starting with year 0 and the user's savings at the start of that year.
+End the list after 40 years, or when the user's balance is 0 or less, whichever comes first.
 
-
+Assume that the user earns three percent simple interest on savings annually.
+Assume that the user spends $50,000 per year in retirement and then earns three percent interest on the remaining balance. 
 
 Psuedocode:
           BEGIN
