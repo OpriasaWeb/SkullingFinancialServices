@@ -8,25 +8,31 @@ Assume that the user earns three percent simple interest on savings annually.
 Assume that the user spends $50,000 per year in retirement and then earns three percent interest on the remaining balance. 
 
 Psuedocode:
-          BEGIN
-              DECLARE num remaining = 0
-              DECLARE num annual = 0
-              DECLARE num controlloop = 0
-              DECLARE num spend = 50000
 
-              OUTPUT "Enter the number of working years remaining:"
-              INPUT remaining
-              OUTPUT "Enter the annual amount of money to save:"
-              INPUT annual
 
-              WHILE controlloop < remaining AND controlloop < 40 AND annual > 0
-                  OUTPUT "Year " + controlloop
-                  OUTPUT "User's savings " + annual
-                  annual = annual + (annual * 0.03) - spend
-                  IF annual <= 0 THEN
-                      annual = 0
-                  END IF
-                  controlloop = controlloop + 1
-              END WHILE
-          END
+
+
+
+
+            BEGIN
+                DECLARE num remaining = 0
+                DECLARE num annual = 0
+                DECLARE num controlloop = 0
+                DECLARE num spend = 50000
+
+                OUTPUT "Enter the number of working years remaining:"
+                INPUT remaining
+                OUTPUT "Enter the annual amount of money to save:"
+                INPUT annual
+
+                WHILE controlloop < remaining AND controlloop < 40 AND annual > 0
+                    OUTPUT "Year " + controlloop
+                    OUTPUT "User's savings " + annual
+                    annual = annual + (annual * 0.03) - spend
+                    IF annual <= 0 THEN
+                        annual = 0
+                    END IF
+                    controlloop = controlloop + 1
+                END WHILE
+            END
           
